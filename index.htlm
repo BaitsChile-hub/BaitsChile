@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Señuelos Juanito Baits Chile</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .price {
+      color: #22c55e;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .instagram {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .instagram a {
+      background: #E1306C;
+      padding: 12px 20px;
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #020617;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Señuelos Juanito Baits</h1>
+  <p>Tienda online | Fabricación artesanal en Chile</p>
+</header>
+
+<div class="container">
+  <h2>🎣 Catálogo</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1603033971631-7c9c1c3b6b6c" alt="Minnow">
+      <h3>Minnow artesanal</h3>
+      <p class="price">$6.000 CLP</p>
+      <a class="btn" href="https://wa.me/56930823649?text=Hola,%20quiero%20comprar%20Minnow" target="_blank">Comprar</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1599507593548-0187cfc4a1b0" alt="Sinking">
+      <h3>Señuelo Sinking</h3>
+      <p class="price">$7.500 CLP</p>
+      <a class="btn" href="https://wa.me/56930823649?text=Hola,%20quiero%20comprar%20Sinking" target="_blank">Comprar</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511886929837-354d827aae26" alt="Personalizado">
+      <h3>Diseño personalizado</h3>
+      <p class="price">$9.000 CLP</p>
+      <a class="btn" href="https://wa.me/56930823649?text=Hola,%20quiero%20un%20diseño%20personalizado" target="_blank">Encargar</a>
+    </div>
+
+  </div>
+
+  <div class="instagram">
+    <p>📸 Ver más modelos y capturas reales:</p>
+    <a href="https://www.instagram.com/senuelos_juanitobaitschile/" target="_blank">Ir a Instagram</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Señuelos Juanito Baits Chile</p>
+</footer>
+
+</body>
+</html>
